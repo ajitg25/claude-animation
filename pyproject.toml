@@ -7,7 +7,7 @@ name = "claude-animation"
 version = "0.1.0"
 description = "Brew-installable terminal animations"
 requires-python = ">=3.9"
-dependencies = ["click>=8.0"]
+dependencies = ["click>=8.0", "pyobjc-framework-Cocoa>=10.0"]
 
 [project.scripts]
 claude-animation = "claude_animation.cli:main"
